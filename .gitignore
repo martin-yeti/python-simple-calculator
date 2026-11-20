@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+src/calc_ex/__pycache__
+.venv
 __pycache__/
 *.py[codz]
 *$py.class

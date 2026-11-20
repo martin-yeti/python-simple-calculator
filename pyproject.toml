@@ -1,0 +1,17 @@
+[project]
+name = "calc-ex"
+version = "0.1.0"
+description = "Simple calculator written in Python"
+readme = "README.md"
+authors = [
+    { name = "Marcin Grzybek", email = "mg51@wp.pl" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+calc-ex = "calc_ex:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
